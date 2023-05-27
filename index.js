@@ -15,7 +15,8 @@ friction = 0.50;
 // This variable controls how much the dots will rotate when interacting
 rotationForce = 0.01;
 
-message = "I'm Iqbal";
+let name = prompt("Enter your name: ");
+message = "Hi "+name+"!";
 
 drawName(message, letterColors);
 bounceBubbles();
